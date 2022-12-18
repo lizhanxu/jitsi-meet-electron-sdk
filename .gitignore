@@ -62,3 +62,6 @@ build/
 
 # vscode settings files
 .vscode/
+
+# idea setting files
+.idea/
