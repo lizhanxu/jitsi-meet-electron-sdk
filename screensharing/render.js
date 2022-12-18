@@ -51,7 +51,8 @@ class ScreenShareRenderHook {
              * 150px.
              */
             obtainDesktopStreams(callback, errorCallback, options = {}) {
-                ipcRenderer.invoke(SCREEN_SHARE_GET_SOURCES, options)
+                desktopCapturer
+                    .getSources(options)
                     .then((sources) => callback(sources))
                     .catch((error) => errorCallback(error));
             }
