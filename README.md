@@ -8,7 +8,7 @@ Supported Electron versions: >= 16.
 
 Install from npm:
 
-    npm install @jitsi/electron-sdk
+    npm install jitsi-meet-electron-sdk
 
 Note: This package contains native code on Windows for the remote control module. Binary prebuilds are packaged with prebuildify as part of the npm package.
 
